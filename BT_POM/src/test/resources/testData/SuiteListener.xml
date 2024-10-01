@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="BT15_ExtentReport.TestListener"></listener>
+    </listeners>
+
+    <test name="Test">
+        <classes>
+            <class name="BT15_ExtentReport.test.BrandTest">
+            </class>
+        </classes>
+    </test>
+</suite>
